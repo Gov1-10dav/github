@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Intro Component with Sign-up Form</title>
+</head>
+<body>
+  <section>
+      <div class="container">
+        <div class="intro">
+          <h1>Welcome to the club</h1>
+          <p>After registering, read the rules of this club.</p>
+        </div>
+        <div class="form-container">
+          <h2>Consultation is free</h2>
+          <form id="form">
+            <div class="form-group">
+              <input type="text" id="firstName" placeholder="First Name" required>
+              <span class="error-text"></span>
+            </div>
+            <div class="form-group">
+              <input type="text" id="lastName" placeholder="Last Name" required>
+              <span class="error-text"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Email Address" required>
+              <span class="error-text"></span>
+            </div>
+            <div class="form-group">
+              <input type="password" id="password" placeholder="Password" required>
+              <span class="error-text"></span>
+            </div>
+            <button type="submit">Get a free subscription</button>
+            <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+          </form>
+        </div>
+      </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
